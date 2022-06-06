@@ -55,7 +55,7 @@ function App() {
       <div className='section-3'>
         
         {/* <p>{obj.weather.description}</p> */}
-        <p>Wind speed: {obj.wind?.speed} m/s</p>
+        <p>Wind speed: {obj.wind?.speed} m/ssss</p>
         <p>Clouds: {obj.clouds?.all}</p>
         <p>Pressure: {obj.main?.pressure} hPa</p>
       </div> 
