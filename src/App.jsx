@@ -50,7 +50,7 @@ function App() {
           obj.main?.temp >= 26 ? <img src="https://static.vecteezy.com/system/resources/previews/002/779/758/non_2x/cartoon-illustration-of-sun-sunny-weather-free-vector.jpg" alt="sunny" /> :
           <img src='https://twotics.files.wordpress.com/2014/04/capture_04132014_212340.png' alt='foggy'></img>
         }
-        <p>Temp: {change ? obj.main?.temp + " °C" : obj.main?.temp * 1.8 + 32 + " °F"}</p>
+        <p>Temp: {change ? obj.main?.temp + " °C" : Number(obj.main?.temp * 1.8 + 32).toFixed(2)  + " °F"}</p>
       </div>
       <div className='section-3'>
         
