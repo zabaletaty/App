@@ -1,0 +1,50 @@
+body{
+  background: url(https://img.freepik.com/vector-gratis/coleccion-nubes-dibujos-animados_23-2149016584.jpg?w=2000) no-repeat center center fixed;
+}
+
+.App {
+  width: 400px;
+  min-height: 400px;
+  margin: auto;
+  margin-top: 100px;
+  background-color: #FFFFF2;
+  text-align: center;
+  border-radius: 10%;
+  
+}
+
+.App h1{
+  padding-top: 20px;
+}
+
+.App img{
+  width: 50%;
+}
+
+.flex{
+  display: flex;
+}
+
+.section-2{
+  width: 50%;
+
+}
+
+.section-3{
+  width: 50%;
+
+}
+
+
+.App button {
+  transition-duration: 0.4s;
+  background-color: #FFFFF2;
+  width: 150px;
+  border-radius: 20px;
+  margin-top: 35px;
+}
+
+.App button:hover {
+  background-color: #42b4de; 
+  color: white;
+}
